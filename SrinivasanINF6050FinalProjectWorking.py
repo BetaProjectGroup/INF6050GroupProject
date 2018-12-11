@@ -115,16 +115,16 @@ def activityLevels():
           "C for moderately active\nD for very active\nE for Extra active\n")
 
 # set activity leve
-def setActivity(activityInput):
-    if activityInput == "A":
+def setActivity(aInput):
+    if aInput == "A":
         level = 1.2
-    elif activityInput == "B":
+    elif aInput == "B":
         level = 1.375
-    elif activityInput == "C":
+    elif aInput == "C":
         level = 1.55
-    elif activityInput == "D":
+    elif aInput == "D":
         level = 1.725
-    elif activityInput == "E": 
+    elif aInput == "E": 
         level = 1.9
     else:
         level = 1
@@ -138,11 +138,38 @@ userInstructions()
 #---------get valid user demographic information------------#
 ## get valid user activity level
 activityLevels()
-activityInput = input("Please input your activity level(A/B/C/D/E):\n")
-activityLevel = setActivity(activityInput)
-## set activity level
+def activityInputFunc():
+    activityInput = input("Please input your activity level(A/B/C/D/E): \n")
+    activityInput = activityInput.strip().upper()
+# Validate input by checking if input is blank, or a character other than
+# a, b, c, d, or e
+# check if input is blank
+    try:
+        if not activityInput:
+            raise ValueError
+        # check if input is a character other than a, b, c, d, e
+        elif (activityInput != 'A' and activityInput != 'B' and activityInput != 
+                  'C' and activityInput):
+            raise ValueError
+        else:
+            return activityInput
+            
+    except ValueError:
+        print("You must enter A, B C, D, or E. You entered: '" 
+              + activityInput + "'")
 
+        # clear out variable's value
+        activityInput = None
+    
+        # Call activityInputFunc() again
+        return activityInputFunc()
+    
+aInput = activityInputFunc()
+activityLevel = setActivity(aInput)
 
+# set activity level
+# turn activityInput convert into uppercase and strip whitespace
+    
 ## get valid user name
 
 ## get valid user gender
