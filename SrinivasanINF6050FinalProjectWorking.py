@@ -149,7 +149,8 @@ def activityInputFunc():
             raise ValueError
         # check if input is a character other than a, b, c, d, e
         elif (activityInput != 'A' and activityInput != 'B' and activityInput != 
-                  'C' and activityInput):
+                  'C' and activityInput and activityInput != 'D'
+                  and activityInput != 'E'):
             raise ValueError
         else:
             return activityInput
@@ -167,13 +168,19 @@ def activityInputFunc():
 aInput = activityInputFunc()
 activityLevel = setActivity(aInput)
 
-# set activity level
-# turn activityInput convert into uppercase and strip whitespace
-    
-## get valid user name
-
-## get valid user gender
-uGender = input("Enter 1 for Female or 2 for Male or 3 for other: ")    
+## Valid gender input
+while True:
+    gInputs = [1,2,3]
+    uGender = input("Enter 1 for Female or 2 for Male or 3 for other: ")
+    try:
+        i = int(uGender)
+        if i in gInputs:
+            break
+        else:
+            raise ValueError
+    except ValueError:
+        print("You must enter 1, 2, or 3.")
+        uGender = None
 
 ## ---get valid user weight
 uWeight = input("How much do you weigh?: ")
