@@ -100,8 +100,8 @@ def rCalories(uAge, uGender, uHeight, uWeight):
         rCalorie = bmrMale * activityLevel
     elif uGender == "3":
         rCalorie = 2
-    
-    print("Your recommended calorie intake should be {} calories.".format(rCalorie))
+    # Truncate rcalorie so that it returns calorie intake to 2 decimal places
+    print("Your recommended calorie intake should be {} calories.".format(round(rCalorie, 2)))
         
 # calculate meal intake calories
 def mCalories(mainDish, sideDish, drink, dessert, mealType):
@@ -183,14 +183,49 @@ while True:
         uGender = None
 
 ## ---get valid user weight
-uWeight = input("How much do you weigh?: ")
- 
+while True:
+    uWeight = input("How much do you weigh? (Please round to the nearest whole "
+                " number): ")
+    try:
+        val = int(uWeight)
+        if val > 0:
+            break
+    except ValueError:
+        print("Please enter a whole number.")
+        uWeight = None
+    
 ## ---get valid user age
-uAge = input("Age: ")
+while True:
+    try:
+        uAge = int(input("Please enter your age: "))
+        if int(uAge) > 0 and int(uAge) < 120:
+            break
+    except ValueError:
+        print("Please enter a valid age.")
+        continue
 
 ## --get valid user height
 # validate input - can be inches or feet and inches
-uHeight = input("Enter your height: ")
+print("")
+print("Enter your height.")
+while True:
+    heightFt = input("Enter feet: ")
+    heightIn = input("Enter inches: ")
+    try:
+        valFt = int(heightFt)
+        valIn = int(heightIn)
+        if valFt > 0 and valIn > 0:
+            break
+    except ValueError:
+        print("Please enter a whole numbers for feet and inches.")
+        heightFt = None
+        heightIn = None
+        
+# convert feet and inches to only inches
+uHeight = (int(heightFt) * 12) + int(heightIn)
+    
+print("You entered", heightFt + "ft", heightIn + "in")
+
 
 ## display recommended calorie intake based on the demographic data
 rCalories(uAge, uGender, uHeight, uWeight)
