@@ -10,10 +10,14 @@ Assignment: Final Group Project
 """   
 #----import modules required----#
 import sys
-## import json/csv
+from urllib.request import urlopen
+import json
 ## import requests
 ## import api 
 ## import math
+
+# API call
+
 
 #----variable declaration----#
 
@@ -232,10 +236,25 @@ rCalories(uAge, uGender, uHeight, uWeight)
 
 #---------get valid user meal information------------#
 ## get valid meal type
+
 ## get main course (list choices collected from the api data load)
-## get the side course (list choices collected from the api data load)
-## get the drink (list choices collected from the api data load)
-## get the dessert (list choices collected from the api data load)
+
+mainDish = input("Enter in the main source of protein in your meal. "
+                 "For example, chicken, tofu, beef or fish: ")
+sideDish1 = input("Enter your first side dish. For example, potatoes, "
+                  " or corn: ")
+sideDish2 = input("Enter your second side dish: ")
+
+# match meal input with calories
+# convert strings to ints
+
+# Calculate meal total
+calcMeal = mainDish + sideDish1 + sideDish2 
 ## calculate and display calorie intake
+print("The calorie intake for your meal is: ")
 ## calculate and display how much more or less calories the user consumes
+calBalance = rCalories - calcMeal
+
+print("You have", calBalance + " remaining today.")
+
 thankyouMessage()
