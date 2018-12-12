@@ -1,566 +1,217 @@
-{
-    "common": [
-        {
-            "food_name": "enchiladas",
-            "serving_unit": "enchilada",
-            "serving_qty": 1,
-            "common_type": null,
-            "photo": {
-                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/543_thumb.jpg"
-            },
-            "tag_id": "543",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "bean enchiladas",
-            "serving_unit": "enchilada",
-            "serving_qty": 1,
-            "common_type": null,
-            "photo": {
-                "thumb": null
-            },
-            "tag_id": "9269",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "beef enchiladas",
-            "serving_unit": "enchilada",
-            "serving_qty": 1,
-            "common_type": null,
-            "photo": {
-                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/543_thumb.jpg"
-            },
-            "tag_id": "543",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "enchiladas beef",
-            "serving_unit": "enchilada",
-            "serving_qty": 1,
-            "common_type": null,
-            "photo": {
-                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/543_thumb.jpg"
-            },
-            "tag_id": "543",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "mole enchiladas",
-            "serving_unit": "enchilada",
-            "serving_qty": 1,
-            "common_type": null,
-            "photo": {
-                "thumb": null
-            },
-            "tag_id": "13634",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "veggie enchiladas",
-            "serving_unit": "enchilada",
-            "serving_qty": 1,
-            "common_type": null,
-            "photo": {
-                "thumb": null
-            },
-            "tag_id": "6055",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "turkey enchiladas",
-            "serving_unit": "enchilada",
-            "serving_qty": 1,
-            "common_type": null,
-            "photo": {
-                "thumb": null
-            },
-            "tag_id": "7657",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "enchiladas cheese",
-            "serving_unit": "enchilada",
-            "serving_qty": 1,
-            "common_type": null,
-            "photo": {
-                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/3499_thumb.jpg"
-            },
-            "tag_id": "3499",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "cheese enchiladas",
-            "serving_unit": "enchilada",
-            "serving_qty": 1,
-            "common_type": null,
-            "photo": {
-                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/3499_thumb.jpg"
-            },
-            "tag_id": "3499",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "spinach enchiladas",
-            "serving_unit": "enchilada",
-            "serving_qty": 1,
-            "common_type": null,
-            "photo": {
-                "thumb": null
-            },
-            "tag_id": "5288",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "chicken enchiladas",
-            "serving_unit": "enchilada",
-            "serving_qty": 1,
-            "common_type": null,
-            "photo": {
-                "thumb": "https://d2xdmhkmkbyw75.cloudfront.net/2027_thumb.jpg"
-            },
-            "tag_id": "2027",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "seafood enchiladas",
-            "serving_unit": "enchilada",
-            "serving_qty": 1,
-            "common_type": null,
-            "photo": {
-                "thumb": null
-            },
-            "tag_id": "7562",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "vegetable enchiladas",
-            "serving_unit": "enchilada",
-            "serving_qty": 1,
-            "common_type": null,
-            "photo": {
-                "thumb": null
-            },
-            "tag_id": "6055",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "vegetarian enchiladas",
-            "serving_unit": "enchilada",
-            "serving_qty": 1,
-            "common_type": null,
-            "photo": {
-                "thumb": null
-            },
-            "tag_id": "6055",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "mole chicken enchiladas",
-            "serving_unit": "enchilada",
-            "serving_qty": 1,
-            "common_type": null,
-            "photo": {
-                "thumb": null
-            },
-            "tag_id": "13634",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "chicken enchiladas mole",
-            "serving_unit": "enchilada",
-            "serving_qty": 1,
-            "common_type": null,
-            "photo": {
-                "thumb": null
-            },
-            "tag_id": "13634",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "butternut squash enchiladas",
-            "serving_unit": "enchilada",
-            "serving_qty": 1,
-            "common_type": null,
-            "photo": {
-                "thumb": null
-            },
-            "tag_id": "3285",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "cheese and onion enchiladas",
-            "serving_unit": "enchilada",
-            "serving_qty": 1,
-            "common_type": null,
-            "photo": {
-                "thumb": null
-            },
-            "tag_id": "9373",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "sour cream chicken enchiladas",
-            "serving_unit": "enchilada",
-            "serving_qty": 1,
-            "common_type": null,
-            "photo": {
-                "thumb": null
-            },
-            "tag_id": "8248",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "chicken sour cream enchiladas",
-            "serving_unit": "enchilada",
-            "serving_qty": 1,
-            "common_type": null,
-            "photo": {
-                "thumb": null
-            },
-            "tag_id": "8248",
-            "locale": "en_US"
-        }
-    ],
-    "branded": [
-        {
-            "food_name": "Enchiladas, Beef",
-            "serving_unit": "enchiladas",
-            "nix_brand_id": "5a570c5884270f4a0ab3a988",
-            "brand_name_item_name": "Realgood Enchiladas Enchiladas, Beef",
-            "serving_qty": 2,
-            "nf_calories": 190,
-            "photo": {
-                "thumb": "https://d1r9wva3zcpswd.cloudfront.net/5a5ef4e5771a28a354d3b2cf.jpeg"
-            },
-            "brand_name": "Realgood Enchiladas",
-            "region": 1,
-            "brand_type": 2,
-            "nix_item_id": "5a5ef4dee53586f847df3d3a",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "Enchilada, Verde Pork",
-            "serving_unit": "enchiladas",
-            "nix_brand_id": "5a570c5884270f4a0ab3a988",
-            "brand_name_item_name": "Realgood Enchiladas Enchilada, Verde Pork",
-            "serving_qty": 2,
-            "nf_calories": 190,
-            "photo": {
-                "thumb": "https://d1r9wva3zcpswd.cloudfront.net/5a8d1996da27277d10eeab10.jpeg"
-            },
-            "brand_name": "Realgood Enchiladas",
-            "region": 1,
-            "brand_type": 2,
-            "nix_item_id": "5a8d1991670a49084a4e657b",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "Cheese Enchilada",
-            "serving_unit": "enchiladas",
-            "nix_brand_id": "5a570c5884270f4a0ab3a988",
-            "brand_name_item_name": "Realgood Enchiladas Cheese Enchilada",
-            "serving_qty": 2,
-            "nf_calories": 350,
-            "photo": {
-                "thumb": "https://d1r9wva3zcpswd.cloudfront.net/5a570c5d08793f7a5352f522.jpeg"
-            },
-            "brand_name": "Realgood Enchiladas",
-            "region": 1,
-            "brand_type": 2,
-            "nix_item_id": "5a570c5884270f4a0ab3a987",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "Chicken Breast Mini Enchilada",
-            "serving_unit": "enchiladas",
-            "nix_brand_id": "5a570c5884270f4a0ab3a988",
-            "brand_name_item_name": "Realgood Enchiladas Chicken Breast Mini Enchilada",
-            "serving_qty": 2,
-            "nf_calories": 190,
-            "photo": {
-                "thumb": "https://d1r9wva3zcpswd.cloudfront.net/5a7aa4732851dae50d10eea9.jpeg"
-            },
-            "brand_name": "Realgood Enchiladas",
-            "region": 1,
-            "brand_type": 2,
-            "nix_item_id": "5a7aa46ef985dddc2e535469",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "Enchiladas",
-            "serving_unit": "enchilada",
-            "nix_brand_id": "51cb34ab97c3e632be9f3a9a",
-            "brand_name_item_name": "Ryan's Grill Buffet Bakery Enchiladas",
-            "serving_qty": 1,
-            "nf_calories": 250,
-            "photo": {
-                "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
-                "highres": null,
-                "is_user_uploaded": false
-            },
-            "brand_name": "Ryan's Grill Buffet Bakery",
-            "region": 1,
-            "brand_type": 1,
-            "nix_item_id": "51cb356b97c3e632bfc4695a",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "Beef Enchiladas",
-            "serving_unit": "package",
-            "nix_brand_id": "51db37b3176fe9790a898623",
-            "brand_name_item_name": "El Monterey Beef Enchiladas",
-            "serving_qty": 1,
-            "nf_calories": 460,
-            "photo": {
-                "thumb": "https://d1r9wva3zcpswd.cloudfront.net/5bf658378713a95152081e2c.jpeg"
-            },
-            "brand_name": "El Monterey",
-            "region": 1,
-            "brand_type": 2,
-            "nix_item_id": "5bf658338713a95152081e2b",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "Chicken Enchiladas",
-            "serving_unit": "enchilada",
-            "nix_brand_id": "51db37b1176fe9790a898469",
-            "brand_name_item_name": "O Organics Chicken Enchiladas",
-            "serving_qty": 1,
-            "nf_calories": 150,
-            "photo": {
-                "thumb": "https://d1r9wva3zcpswd.cloudfront.net/5be3e17b0ce406a76b4f19f0.jpeg"
-            },
-            "brand_name": "O Organics",
-            "region": 1,
-            "brand_type": 2,
-            "nix_item_id": "5be3e177af67aa9109f15f5f",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "Enchiladas, Lettuce",
-            "serving_unit": "serving",
-            "nix_brand_id": "513fbc1283aa2dc80c00031f",
-            "brand_name_item_name": "Cafe Rio Enchiladas, Lettuce",
-            "serving_qty": 1,
-            "nf_calories": 5,
-            "photo": {
-                "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
-                "highres": null,
-                "is_user_uploaded": false
-            },
-            "brand_name": "Cafe Rio",
-            "region": 1,
-            "brand_type": 1,
-            "nix_item_id": "692487104f5533e94203810d",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "Susalitas Enchiladas",
-            "serving_unit": "baked-crisp tortilla chips 0.77 oz",
-            "nix_brand_id": "591169512269baa227386a24",
-            "brand_name_item_name": "Susalia Susalitas Enchiladas",
-            "serving_qty": 10,
-            "nf_calories": 46,
-            "photo": {
-                "thumb": "https://d1r9wva3zcpswd.cloudfront.net/5a8d194611204af64913eb51.jpeg"
-            },
-            "brand_name": "Susalia",
-            "region": 1,
-            "brand_type": 2,
-            "nix_item_id": "5a8d193e680b78bf2e32a1f3",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "Vegetarian Enchiladas",
-            "serving_unit": "oz",
-            "nix_brand_id": "521b95434a56d006cae29716",
-            "brand_name_item_name": "Alonti Cafe & Catering Vegetarian Enchiladas",
-            "serving_qty": 11.2,
-            "nf_calories": 480,
-            "photo": {
-                "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
-                "highres": null,
-                "is_user_uploaded": false
-            },
-            "brand_name": "Alonti Cafe & Catering",
-            "region": 1,
-            "brand_type": 1,
-            "nix_item_id": "53444c237395ed134519e927",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "3 Enchiladas",
-            "serving_unit": "oz.",
-            "nix_brand_id": "521b95444a56d006cae29885",
-            "brand_name_item_name": "Cowboy Chicken 3 Enchiladas",
-            "serving_qty": 16,
-            "nf_calories": 760,
-            "photo": {
-                "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
-                "highres": null,
-                "is_user_uploaded": false
-            },
-            "brand_name": "Cowboy Chicken",
-            "region": 1,
-            "brand_type": 1,
-            "nix_item_id": "53444d909a631f1645ecfba3",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "Cheese Enchiladas",
-            "serving_unit": "serving",
-            "nix_brand_id": "513fbc1283aa2dc80c0006f4",
-            "brand_name_item_name": "Casa Ole Cheese Enchiladas",
-            "serving_qty": 1,
-            "nf_calories": 700,
-            "photo": {
-                "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
-                "highres": null,
-                "is_user_uploaded": false
-            },
-            "brand_name": "Casa Ole",
-            "region": 1,
-            "brand_type": 1,
-            "nix_item_id": "516d9a40e3afed032c7da5a3",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "Enchiladas Ole",
-            "serving_unit": "dinner",
-            "nix_brand_id": "513fbc1283aa2dc80c0006f4",
-            "brand_name_item_name": "Casa Ole Enchiladas Ole",
-            "serving_qty": 1,
-            "nf_calories": 1160,
-            "photo": {
-                "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
-                "highres": null,
-                "is_user_uploaded": false
-            },
-            "brand_name": "Casa Ole",
-            "region": 1,
-            "brand_type": 1,
-            "nix_item_id": "516d9a40e3afed032c7da5cd",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "Enchiladas Verdes",
-            "serving_unit": "package",
-            "nix_brand_id": "51db37d9176fe9790a89a00a",
-            "brand_name_item_name": "H-E-B Enchiladas Verdes",
-            "serving_qty": 1,
-            "nf_calories": 340,
-            "photo": {
-                "thumb": "https://d1r9wva3zcpswd.cloudfront.net/55079f1b02d374b7239058ec.jpeg"
-            },
-            "brand_name": "H-E-B",
-            "region": 1,
-            "brand_type": 2,
-            "nix_item_id": "55079ec002d374b7239058d9",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "Enchiladas, Guacamole",
-            "serving_unit": "serving",
-            "nix_brand_id": "513fbc1283aa2dc80c00031f",
-            "brand_name_item_name": "Cafe Rio Enchiladas, Guacamole",
-            "serving_qty": 1,
-            "nf_calories": 45,
-            "photo": {
-                "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
-                "highres": null,
-                "is_user_uploaded": false
-            },
-            "brand_name": "Cafe Rio",
-            "region": 1,
-            "brand_type": 1,
-            "nix_item_id": "6924871015af3a40af50868a",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "Green Enchiladas",
-            "serving_unit": "enchilada",
-            "nix_brand_id": "526831133203b9c3390001c8",
-            "brand_name_item_name": "Unknown Green Enchiladas",
-            "serving_qty": 1,
-            "nf_calories": 350,
-            "photo": {
-                "thumb": "https://d1r9wva3zcpswd.cloudfront.net/592683f443cce3504784c8e6.jpeg"
-            },
-            "brand_name": "Unknown",
-            "region": 1,
-            "brand_type": 2,
-            "nix_item_id": "592683f143cce3504784c8e5",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "Seafood Enchiladas",
-            "serving_unit": "plate",
-            "nix_brand_id": "c6402683dc98c72349858339",
-            "brand_name_item_name": "Rio Grande Mexican Restaurant Seafood Enchiladas",
-            "serving_qty": 1,
-            "nf_calories": 1040,
-            "photo": {
-                "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
-                "highres": null,
-                "is_user_uploaded": false
-            },
-            "brand_name": "Rio Grande Mexican Restaurant",
-            "region": 1,
-            "brand_type": 1,
-            "nix_item_id": "c640281111fb17589189aa32",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "Steak Enchiladas",
-            "serving_unit": "plate",
-            "nix_brand_id": "c6402683dc98c72349858339",
-            "brand_name_item_name": "Rio Grande Mexican Restaurant Steak Enchiladas",
-            "serving_qty": 1,
-            "nf_calories": 1110,
-            "photo": {
-                "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
-                "highres": null,
-                "is_user_uploaded": false
-            },
-            "brand_name": "Rio Grande Mexican Restaurant",
-            "region": 1,
-            "brand_type": 1,
-            "nix_item_id": "c640281129e84138055f26c8",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "Vegetable Enchiladas",
-            "serving_unit": "package",
-            "nix_brand_id": "51db37b3176fe9790a898628",
-            "brand_name_item_name": "Evol Vegetable Enchiladas",
-            "serving_qty": 1,
-            "nf_calories": 330,
-            "photo": {
-                "thumb": "https://d1r9wva3zcpswd.cloudfront.net/5801d53705d2430712901e79.jpeg"
-            },
-            "brand_name": "Evol",
-            "region": 1,
-            "brand_type": 2,
-            "nix_item_id": "5801d473d8be47ad0912f476",
-            "locale": "en_US"
-        },
-        {
-            "food_name": "Enchiladas, Cilantro",
-            "serving_unit": "serving",
-            "nix_brand_id": "513fbc1283aa2dc80c00031f",
-            "brand_name_item_name": "Cafe Rio Enchiladas, Cilantro",
-            "serving_qty": 1,
-            "nf_calories": 5,
-            "photo": {
-                "thumb": "https://d2eawub7utcl6.cloudfront.net/images/nix-apple-grey.png",
-                "highres": null,
-                "is_user_uploaded": false
-            },
-            "brand_name": "Cafe Rio",
-            "region": 1,
-            "brand_type": 1,
-            "nix_item_id": "6924871087067c46e1f2ced7",
-            "locale": "en_US"
-        }
-    ]
+"""
+Created on Fri Dec  7 00:28:28 2018
+@author: Sushila Srinivasan
+Course: INF6050 Intro to Computer Programming
+School: School of Information Science, Wayne State University
+Assignment: Final Group Project
+"""
+#----import modules required----#
+import sys
+##import json
+import requests
+##import api 
+## import math
+
+#----variable declaration----#
+
+## username
+uName = ''
+
+## age
+uAge = 0
+
+## gender
+uGender = ''
+
+## height
+uHeight = 0
+
+## weight
+uWeight = 0
+
+## activity level
+uSedentary = 1.2
+uLightActivity = 1.375
+uModerateActivity = 1.55
+uVeryActive = 1.725
+uExtraActive = 1.9
+activityLevel = 0
+level = 0
+
+## recommended calorie
+rCalorie = 0
+
+## meal details
+mealType =  ['breakfast', 'lunch', 'dinner']
+
+#--- user defined functions ------#
+
+# welcome message
+def welcomeMessage():
+    ## welcome message content
+    print("\nWelcome Message\n")
+    
+# user instruction
+def userInstructions():
+    ## user instructions content
+    print("\nUser Instructions\n")
+    
+# check for 'quit' or 'exit'
+def checkExit(v):
+    ## check if the user input 'x' or 'quit'
+    print("Content for checking to quit the app")
+    if v.capitalize() == "X":
+        print("\n\n")
+        print("##########################################################\n")
+        print("Thank you for playing. Good Bye!")
+        sys.exit()
+    else:
+        return True
+
+# validate number
+def isNum(v):
+    ## check if the user input a valid number
+    print("Input is/not a valid number")
+    if v.isdigit():
+        if int(v)<100:
+           return True
+        else:
+           return False
+    else:
+        return False
+    
+# thank you message does not return value or takes argument
+def thankyouMessage():
+    ## print thank you message
+    print("\nThank you for trying the game/app!\n")
+    
+# calculate recommended calories
+def rCalories(uAge, uGender, uHeight, uWeight):
+    ## add calorie calculation info based on the demographic data
+    print("\n\nYour recommended calories\n")
+    if uGender == "1":
+        bmrFemale = 655.0 + (4.35 * float(uWeight)) + (4.7 * float(uHeight)) - (4.7 * float(uAge))
+        rCalorie = bmrFemale * activityLevel
+    elif uGender == "2":
+        bmrMale = 66 + (6.23 * float(uWeight)) + (12.7 * float(uHeight)) - (6.8 * float(uHeight))
+        rCalorie = bmrMale * activityLevel
+    elif uGender == "3":
+        rCalorie = 2
+    
+    print("Your recommended calorie intake should be {} calories.".format(rCalorie))
+        
+# calculate meal intake calories
+def mCalories(mainDish, sideDish, drink, dessert, mealType):
+    ## use the argument values and calculate calorie intake
+    print("Your current calorie intake")
+    
+# print activity levels
+def activityLevels():
+    print("Please choose your current activity level based:\n"+
+          "A for sedentary\nB for lightly active\n"+ 
+          "C for moderately active\nD for very active\nE for Extra active\n")
+
+# set activity leve
+def setActivity(activityInput):
+    if activityInput == "A":
+        level = 1.2
+    elif activityInput == "B":
+        level = 1.375
+    elif activityInput == "C":
+        level = 1.55
+    elif activityInput == "D":
+        level = 1.725
+    elif activityInput == "E": 
+        level = 1.9
+    else:
+        level = 1
+        
+    return level
+
+#--------------------begin main program---------------------#
+welcomeMessage()
+userInstructions()
+
+#---------get valid user demographic information------------#
+## get valid user activity level
+activityLevels()
+activityInput = input("Please input your activity level(A/B/C/D/E):\n")
+activityLevel = setActivity(activityInput)
+## set activity level
+
+
+## get valid user name
+
+## get valid user gender
+uGender = input("Enter 1 for Female or 2 for Male or 3 for other: ")    
+
+## ---get valid user weight
+uWeight = input("How much do you weigh?: ")
+ 
+## ---get valid user age
+uAge = input("Age: ")
+
+## --get valid user height
+# validate input - can be inches or feet and inches
+uHeight = input("Enter your height: ")
+
+## display recommended calorie intake based on the demographic data
+rCalories(uAge, uGender, uHeight, uWeight)
+
+#---------get valid user meal information------------#
+## get valid meal type
+## get main course (list choices collected from the api data load)
+headers = {
+        'Content-Type': 'application/json',
+        'x-app-id': '3e0c2836',
+        'x-app-key': 'a298f0ce44cede027b12664a10b62379'
 }
+url = ' https://trackapi.nutritionix.com/v2/natural/nutrients'
+
+## calculate and display calorie intake
+mainDish = input("Enter in the main source of protein in your meal. "
+                "For example, chicken, tofu, beef or fish: ")
+json = {
+     "query":mainDish,
+     "timezone": "US/Eastern"
+}
+
+response = requests.post(url, headers=headers, json=json)
+mainData = response.json()
+caloriesMain = mainData['foods'][0]['nf_calories']
+print(caloriesMain)
+
+sideDish1 = input("Enter your first side dish. For example, potatoes, "
+                 " or corn: ")
+json = {
+     "query":sideDish1,
+     "timezone": "US/Eastern"
+}
+
+response = requests.post(url, headers=headers, json=json)
+sideData1 = response.json()
+caloriesSide1 = sideData1['foods'][0]['nf_calories']
+print (caloriesSide1)
+
+sideDish2 = input("Enter your second side dish: ")
+
+json = {
+     "query":sideDish2,
+     "timezone": "US/Eastern"
+}
+
+response = requests.post(url, headers=headers, json=json)
+sideData2 = response.json()
+caloriesSide2 = sideData2['foods'][0]['nf_calories']
+print (caloriesSide2)
+
+total = [float(caloriesMain), float(caloriesSide1), float(caloriesSide2)]
+totalCalories = sum(total)
+totalRemaining = rCalorie - totalCalories
+
+## calculate and display how much more or less calories the user consumes
+print(totalCalories)
+print(totalRemaining)
+
+## Thank you message
+thankyouMessage()
