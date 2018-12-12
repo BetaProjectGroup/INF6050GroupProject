@@ -10,8 +10,7 @@ Assignment: Final Group Project
 """   
 #----import modules required----#
 import sys
-from urllib.request import urlopen
-import json
+from checkExit import checkExit
 ## import requests
 ## import api 
 ## import math
@@ -20,6 +19,8 @@ import json
 
 
 #----variable declaration----#
+
+v = 'X'
 
 ## username
 uName = ''
@@ -62,18 +63,7 @@ def welcomeMessage():
 def userInstructions():
     ## user instructions content
     print("\nUser Instructions\n")
-    
-# check for 'quit' or 'exit'
-def checkExit(v):
-    ## check if the user input 'x' or 'quit'
-    print("Content for checking to quit the app")
-    if v.capitalize() == "X":
-        print("\n\n")
-        print("##########################################################\n")
-        print("Thank you for playing. Good Bye!")
-        sys.exit()
-    else:
-        return True
+    print("Type X to exit")
 
 # validate number
 def isNum(v):
@@ -145,6 +135,7 @@ activityLevels()
 def activityInputFunc():
     activityInput = input("Please input your activity level(A/B/C/D/E): \n")
     activityInput = activityInput.strip().upper()
+    
 # Validate input by checking if input is blank, or a character other than
 # a, b, c, d, or e
 # check if input is blank
@@ -154,8 +145,10 @@ def activityInputFunc():
         # check if input is a character other than a, b, c, d, e
         elif (activityInput != 'A' and activityInput != 'B' and activityInput != 
                   'C' and activityInput and activityInput != 'D'
-                  and activityInput != 'E'):
+                  and activityInput != 'E' and activityInput != 'X'):
             raise ValueError
+        elif activityInput == "X":
+            checkExit(v)
         else:
             return activityInput
             
@@ -182,9 +175,9 @@ while True:
             break
         else:
             raise ValueError
-    except ValueError:
-        print("You must enter 1, 2, or 3.")
-        uGender = None
+    except:
+        if uGender.strip().upper() == "X":
+            checkExit(v)
 
 ## ---get valid user weight
 while True:
@@ -194,19 +187,25 @@ while True:
         val = int(uWeight)
         if val > 0:
             break
+        else:
+            print("Please enter a whole number.")
+            raise ValueError
     except ValueError:
-        print("Please enter a whole number.")
-        uWeight = None
+        if uWeight.strip().upper() == "X":
+            checkExit(v)
     
 ## ---get valid user age
 while True:
     try:
-        uAge = int(input("Please enter your age: "))
+        uAge = input("Please enter your age: ")
         if int(uAge) > 0 and int(uAge) < 120:
             break
-    except ValueError:
-        print("Please enter a valid age.")
-        continue
+        else:
+            print("Please enter a valid age.")
+            raise ValueError
+    except:
+        if uAge.strip().upper() == "X":
+            checkExit(v)
 
 ## --get valid user height
 # validate input - can be inches or feet and inches
@@ -214,16 +213,29 @@ print("")
 print("Enter your height.")
 while True:
     heightFt = input("Enter feet: ")
-    heightIn = input("Enter inches: ")
     try:
         valFt = int(heightFt)
-        valIn = int(heightIn)
-        if valFt > 0 and valIn > 0:
+        if valFt > 0:
             break
+        else:
+            print("Please enter a whole number.")
+            raise ValueError
     except ValueError:
-        print("Please enter a whole numbers for feet and inches.")
-        heightFt = None
-        heightIn = None
+        if heightFt.strip().upper() == "X":
+            checkExit(v)
+    
+while True:
+    heightIn = input("Enter inches: ")
+    try:
+        valIn = int(heightIn)
+        if valIn > 0:
+            break
+        else:
+            print("Please enter a whole number.")
+            raise ValueError
+    except ValueError:
+        if heightIn.strip().upper() == "X":
+            checkExit(v)       
         
 # convert feet and inches to only inches
 uHeight = (int(heightFt) * 12) + int(heightIn)
@@ -239,12 +251,20 @@ rCalories(uAge, uGender, uHeight, uWeight)
 
 ## get main course (list choices collected from the api data load)
 
-mainDish = input("Enter in the main source of protein in your meal. "
+mainDish = input("Enter your entree or the main source of protein in your meal. "
                  "For example, chicken, tofu, beef or fish: ")
+if mainDish == "X":
+    checkExit(v)
+
 sideDish1 = input("Enter your first side dish. For example, potatoes, "
                   " or corn: ")
-sideDish2 = input("Enter your second side dish: ")
-
+if sideDish1 == "X":
+    checkExit(v)
+    
+sideDish2 = input("Enter your second side dish. For example, rice, pasta, "
+                  " or bread: ")
+if sideDish2 == "X":
+    checkExit(v)
 # match meal input with calories
 # convert strings to ints
 
